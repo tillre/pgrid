@@ -1,0 +1,34 @@
+//
+// pgrid - pixel grid system
+// inspired by semantic.gs
+//
+
+
+.grid-width(@columns,@gutters) {
+    width: (@columns * @column-width) + (@gutters * @gutter-width);
+}
+
+.row-width(@n:@columns) {
+  .grid-width(@n, @n - 1);
+}
+
+.row(@columns:@columns) {
+	display: block;
+    .grid-width(12, 12); // one gutter bigger to fit the outer margins
+    margin: 0 -(@gutter-width / 2);
+	.clearfix();
+}
+.column(@x) {
+	display: inline;
+	float: left;
+    .row-width(@x);
+    margin: 0 (@gutter-width / 2);
+}
+
+.push(@offset:1) {
+    margin-left: (@offset * @column-width) + (@offset * @gutter-width) + (@gutter-width / 2);
+}
+
+.pull(@offset:1) {
+    margin-left: (@offset * @column-width) + (@offset * @gutter-width) + (@gutter-width / 2);
+}

@@ -1,0 +1,193 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+   */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+}
+.clearfix:after {
+  clear: both;
+}
+body {
+  color: #333;
+  background-color: #EEE;
+  font-family: georgia, serif;
+}
+h1 {
+  margin: 32px 0 12px;
+  font-size: 32px;
+}
+h2 {
+  margin: 21px 0;
+  font-size: 24px;
+}
+p {
+  font-size: 16px;
+  line-height: 21px;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+.wrapper article {
+  display: block;
+  width: 984px;
+  margin: 0 -12px;
+  *zoom: 1;
+}
+.wrapper article:before,
+.wrapper article:after {
+  display: table;
+  content: "";
+}
+.wrapper article:after {
+  clear: both;
+}
+.wrapper article header {
+  display: inline;
+  float: left;
+  width: 960px;
+  margin: 0 12px;
+}
+.wrapper article section {
+  display: inline;
+  float: left;
+  width: 304px;
+  margin: 0 12px;
+}
+.wrapper article .pushed {
+  display: inline;
+  float: left;
+  width: 632px;
+  margin: 0 12px;
+  margin-left: 340px;
+}
