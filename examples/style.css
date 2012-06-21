@@ -176,18 +176,21 @@ p {
   display: inline;
   float: left;
   width: 960px;
-  margin: 0 12px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .wrapper article section {
   display: inline;
   float: left;
   width: 304px;
-  margin: 0 12px;
+  margin-left: 12px;
+  margin-right: 12px;
 }
 .wrapper article .pushed {
   display: inline;
   float: left;
   width: 632px;
-  margin: 0 12px;
+  margin-left: 12px;
+  margin-right: 12px;
   margin-left: 340px;
 }

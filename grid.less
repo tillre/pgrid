@@ -22,7 +22,8 @@
   display: inline;
   float: left;
   .row-width(@x);
-  margin: 0 (@gutter-width / 2);
+  margin-left: (@gutter-width / 2);
+  margin-right: (@gutter-width / 2);
 }
 
 .push(@offset:1) {
@@ -30,5 +31,5 @@
 }
 
 .pull(@offset:1) {
-  margin-left: (@offset * @column-width) + (@offset * @gutter-width) + (@gutter-width / 2);
+  margin-right: (@offset * @column-width) + (@offset * @gutter-width) + (@gutter-width / 2);
 }
